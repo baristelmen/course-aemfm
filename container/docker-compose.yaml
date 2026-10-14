@@ -1,0 +1,15 @@
+name: course-aemfm
+
+services:
+  jupyter:
+    image: baristelmen/course-aemfm:2026-lab-4.6.3
+    container_name: aemfm
+    ports:
+      - "8888:8888"
+    environment:
+      # Password used to log in to JupyterLab
+      - JUPYTER_TOKEN=AEMFM
+    volumes:
+      # The whole repository (python/, data/, matlab/) is shared with the container
+      - ./:/home/jovyan/work
+    restart: unless-stopped
