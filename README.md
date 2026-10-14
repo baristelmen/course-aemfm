@@ -8,9 +8,9 @@
     Statistical analysis of experimental and synthetic signals with Python, run in JupyterLab.
  <br />
     <br />
-    <a href="https://github.com/baristelmen/M2-IPP-AEMFM/issues">Report Bug</a>
+    <a href="https://github.com/baristelmen/course-aemfm/issues">Report Bug</a>
     ·
-    <a href="https://github.com/baristelmen/M2-IPP-AEMFM/pulls">Request Feature</a>
+    <a href="https://github.com/baristelmen/course-aemfm/pulls">Request Feature</a>
   </p>
 </div>
 
@@ -72,11 +72,11 @@ No local installation of Python packages is needed: everything runs inside the c
 ### Get the repository
 
 ```shell
-git clone https://github.com/baristelmen/M2-IPP-AEMFM.git
-cd M2-IPP-AEMFM
+git clone https://github.com/baristelmen/course-aemfm.git
+cd course-aemfm
 ```
 
-Or [download the ZIP](https://github.com/baristelmen/M2-IPP-AEMFM/archive/refs/heads/main.zip), unzip it, and open a terminal in the unzipped folder.
+Or [download the ZIP](https://github.com/baristelmen/course-aemfm/archive/refs/heads/main.zip), unzip it, and open a terminal in the unzipped folder.
 
 Both options use the image `baristelmen/course-aemfm:2026-lab-4.6.3`, which is built on the official Jupyter Docker Stacks `minimal-notebook`. The login password is set with the `JUPYTER_TOKEN` environment variable. The default password is **`AEMFM`**.
 
@@ -149,7 +149,7 @@ The `matlab/` folder contains the MATLAB version of the tutorial material, for s
 
 ## Getting help
 
-- **Problems with this repository or the environment:** open an issue on the [Issues page](https://github.com/baristelmen/M2-IPP-AEMFM/issues). Include the steps to reproduce, the error message, and your OS and Docker version (`docker --version`).
+- **Problems with this repository or the environment:** open an issue on the [Issues page](https://github.com/baristelmen/course-aemfm/issues). Include the steps to reproduce, the error message, and your OS and Docker version (`docker --version`).
 - **Course content:** see the [course page](https://perso.ensta.fr/~monchaux/index.html) or contact the lecturer, Romain Monchaux (ENSTA Paris).
 - **Signal processing in Python:** see the [`scipy.signal`](https://docs.scipy.org/doc/scipy/reference/signal.html) and [`scipy.io.wavfile`](https://docs.scipy.org/doc/scipy/reference/io.html) documentation.
 - **Docker:** see the [Docker](https://docs.docker.com) and [Docker Compose](https://docs.docker.com/compose) documentation.
